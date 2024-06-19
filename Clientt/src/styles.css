@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  .logo{
+    display: block;
+    margin: 0 auto;
+    width:400px;
+    height:400px;
+  }
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .list-group-item input[type="checkbox"] {
+    margin-right: 15px;
+  }
+  .main-text{
+    color:white;
+  }
+  .text-center {
+    text-align: center;
+    color:white;
+  }
+  .completed {
+    text-decoration: line-through;
+    color: grey;
+    background-color: #f8f9fa;
+  }
+  
+  
